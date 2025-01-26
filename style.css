@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Lato&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500&family=Lato:wght@400;700&display=swap');
+
+
+
+.title {
+	text-align: center; 
+	font-family: "Dancing Script", cursive; 
+	font-size: 85px;
+	color: #333333;
+}
+
+.title2 {
+	text-align: center; 
+	font-family: "Lato",cursive;
+	font-size: 40px;
+	color: #666666;
+}
+
+#description {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 18px; 
+	color: #3c3c3c;
+}
+
+#mainTitle {
+	text-align: center; 
+}
+
+#mainContent {
+	text-align: center;	
+}
+
+#additional {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 30px; 
+	color: #3c3c3c;
+}
+
+.buttonNew {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 7px;
+}
+
+#photoTypes {
+	text-align: center; 
+	font-family: "Lato",cursive;
+	font-size: 25px;
+	color: #666666;
+}
+
+#buttonGrayscale {
+	text-align: center; 
+	font-family: "Lato", cursive;
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 3px;
+
+}
+
+#buttonBlur {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 3px;	
+}
+
+#buttonBoth {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 3px;	
+}
+
+#buttonWeb {
+	text-align: center; 
+	font-family: "Lato", cursive;
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 3px;		
+}
+
+#photoList {
+	text-align: center; 
+	font-family: "Lato",cursive;
+	font-size: 25px;
+	color: #666666;
+}
+
+#buttonRefresh {
+	text-align: center; 
+	font-family: "Lato", cursive; 
+	font-size: 15px;
+	background-color:#a6a6a6;
+	color: #ffffff;
+	border-radius: 0.3em;
+    padding: 3px;
+}

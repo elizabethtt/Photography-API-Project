@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Photography of The Day</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    
+    <!-- include an external JavaScript file -->
+    <script src="myscript.js"></script>
+  </head>
+  
+  <body>
+	
+	<div id="mainTitle">
+	<span class="title"> 
+    Lensation
+    </span> 
+   
+    <span class="title2"> 
+    Picture Studio:
+    </span> 
+    </div>
+	
+	<div id="description">
+	Look beyound the camera, see the world from a different point of view
+	</div>
+	
+	<br>
+	<br>
+	<div id="mainContent"> 
+	<button class="buttonNew" type="submit" onclick="refreshPage()">
+    Click to see a New Image &#8595;
+    </button>
+	<br> 
+	<br>
+	<img src="Images/blank.jpg" alt="" id="photoimage">
+	
+	<br>
+	<br>
+	
+	<div id="additional">
+	Additional Features &#8595;
+	</div>
+	
+	<!--<div id="Author">Photographer:</div>--> 
+	
+	<br>
+	<br>
+	<br>
+	
+	<div id="photoTypes"> You can pick a specific Photo type here:</div>  
+	<br>
+	<button id="buttonGrayscale" onclick="fetchGrayscale('Grayscale')">Grayscale</button> 
+	<button id="buttonBlur" onclick="fetchBlur('Blur')">Blur</button> 
+	<button id="buttonBoth" onclick="fetchBoth('Blur & Grayscale')">Blur & Grayscale</button> 
+	<button id="buttonWeb" onclick="fetchWebformat('Web Format')">Web Format</button> 
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<div id="moreinfo"> This script uses a fetch request to get Photo Data from a free api called Lorem Picsum.</div>
+	</div>
+	
+	
+
+  </body>
+  
+</html>
